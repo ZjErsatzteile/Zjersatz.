@@ -1,0 +1,14 @@
+FÜR REPOSITORY ZjErsatzteile/Zj
+
+Diese Version ist für die vorhandene GitHub-Struktur angepasst:
+- index.html im Repository-Root
+- alle JPG-Bilder ebenfalls im Repository-Root
+- keine assets/parts/-Pfade
+- keine externen Bildquellen
+
+Beim Hochladen:
+1. ZIP entpacken.
+2. Alle Dateien in https://github.com/ZjErsatzteile/Zj hochladen.
+3. Vorhandene index.html/style.css/script.js ersetzen.
+4. Die JPG-Dateien im Root lassen.
+5. GitHub Pages muss vom Branch main aus dem Root (/) veröffentlichen.
