@@ -1,0 +1,55 @@
+/* Größere Produktkarten */
+.part{
+    position:relative;
+    height:340px !important;
+    border:1px solid rgba(8,170,255,.45);
+    border-radius:12px;
+    overflow:hidden;
+    background:#07111c;
+    transition:transform .25s ease;
+}
+
+.part:hover{
+    transform:scale(1.03);
+}
+
+/* Bild größer darstellen */
+.part img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* Kleine Symbole und Pfeile ausblenden */
+.part span,
+.part em{
+    display:none !important;
+}
+
+/* Überschrift zentrieren */
+.part div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Große, gut lesbare Schrift */
+.part h3{
+    margin:0;
+    font-size:24px !important;
+    font-weight:800;
+    text-align:center;
+    color:#ffffff;
+    text-shadow:0 2px 8px rgba(0,0,0,.8);
+}
+
+/* Mobile Optimierung */
+@media (max-width:768px){
+    .part{
+        height:280px !important;
+    }
+
+    .part h3{
+        font-size:20px !important;
+    }
+}
